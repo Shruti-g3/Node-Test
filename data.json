@@ -1,0 +1,8 @@
+{
+  "apiName": "My Awesome API",
+  "version": "1.0.0",
+  "users": [
+    { "id": 1, "name": "Shruti Gupta" },
+    { "id": 2, "name": "" }
+  ]
+}
