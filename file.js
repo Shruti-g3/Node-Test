@@ -1,14 +1,14 @@
 const fs= require('fs');
 
 // fs.writeFile("./cse-c.txt", "hi we are coder in node", () => { });
-fs.readFile("./cse-c.txt", "utf-8",(err, result) => { 
-    if(err){
-        console.log("error", err)
-    }
-    else{
-        console.log(result);
-    }
-})
+// fs.readFile("./cse-c.txt", "utf-8",(err, result) => { 
+//     if(err){
+//         console.log("error", err)
+//     }
+//     else{
+//         console.log(result);
+//     }
+// })
 // fs.writeFile("./cse-c.txt", "utf-8",(err) => { 
 //     if(err){
 //         console.log("error", err)
@@ -18,4 +18,6 @@ fs.readFile("./cse-c.txt", "utf-8",(err, result) => {
 //     }
 // })/
 
-fs.appendFileSync("./cse-c")
+// fs.appendFileSync("./cse-c")
+
+fs.cpSync("./cse-c.txt", "./b.txt");
